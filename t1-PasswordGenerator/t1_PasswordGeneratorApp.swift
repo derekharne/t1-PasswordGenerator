@@ -12,6 +12,8 @@ struct t1_PasswordGeneratorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 450, maxWidth: 450, minHeight: 250, maxHeight: 250)
         }
+        .windowResizability(.contentSize)
     }
 }
