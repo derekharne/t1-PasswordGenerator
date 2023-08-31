@@ -1,0 +1,17 @@
+//
+//  t1_PasswordGeneratorApp.swift
+//  t1-PasswordGenerator
+//
+//  Created by Derek Harne on 8/31/23.
+//
+
+import SwiftUI
+
+@main
+struct t1_PasswordGeneratorApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
